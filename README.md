@@ -90,3 +90,4 @@ Special notes:
 - firebaseConfig.ts has been modified to require users to input their own credentials, to protect the core files of the app / store.
 - Home and Navbar were added purely out of aesthetics and practical use
 - Pexels was used as image host, due to their browser friendly setup
+- ReadMe file was deleted on tree, and uploaded directly to the repository
