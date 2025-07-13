@@ -72,17 +72,18 @@ React-E-Commerce-Firebase-App/
 - tsconfig.json                 # TypeScript config
 - .gitignore                    # Git ignore rules
 
-DependenciesReact
-TypeScript
-Vite
-Firebase
-Redux Toolkit
-React Router DOM
-React Bootstrap
-@tanstack
-/react-query
-axios
-(Check package.json for exact versions)
+Dependencies:
+- React
+- TypeScript
+- Vite
+- Firebase
+- Redux Toolkit
+- React Router DOM
+- React Bootstrap
+- @tanstack
+- /react-query
+- axios
+- (Check package.json for exact versions)
 
 Special notes:
 -Utils.ts was created to fetch to the API for organization, and modularity per instructor Daniel Erazo of Coding Temple's instructions.
