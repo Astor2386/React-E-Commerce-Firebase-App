@@ -46,7 +46,7 @@ File Structure
 React-E-Commerce-Firebase-App/
 - src/
  - * components/
-  - ** AddProduct.tsx        # Form to add products with Pexels default image
+   - * AddProduct.tsx        # Form to add products with Pexels default image
   - ** Home.tsx              # Welcome page with auth status
   - ** Login.tsx             # Login and logout functionality
   - ** Navbar.tsx            # Navigation bar with dynamic links
@@ -56,8 +56,8 @@ React-E-Commerce-Firebase-App/
   - ** ShoppingCart.tsx      # Cart management and checkout
   - ** UserProfile.tsx       # User profile management
 -  redux/
-   - ** CartSlice.ts          # Manages cart state with add, remove, clear actions
-  - ** store.ts              # Configures Redux store
+   -  CartSlice.ts          # Manages cart state with add, remove, clear actions
+   -  store.ts              # Configures Redux store
   - * App.css                   # Styles for the App component
   - * App.tsx                   # Main app with routing and auth state
  - * firebaseConfig.ts         # Firebase SDK setup (update with your credentials)
