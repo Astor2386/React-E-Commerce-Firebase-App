@@ -46,7 +46,7 @@ File Structure
 React-E-Commerce-Firebase-App/
 - src/
  - * components/
-   -  AddProduct.tsx        # Form to add products with Pexels default image
+    AddProduct.tsx        # Form to add products with Pexels default image
   - ** Home.tsx              # Welcome page with auth status
   - ** Login.tsx             # Login and logout functionality
   - ** Navbar.tsx            # Navigation bar with dynamic links
