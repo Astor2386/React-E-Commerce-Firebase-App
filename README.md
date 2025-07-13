@@ -58,8 +58,8 @@ React-E-Commerce-Firebase-App/
 -  redux/
    -  CartSlice.ts          # Manages cart state with add, remove, clear actions
    -  store.ts              # Configures Redux store
-  - * App.css                   # Styles for the App component
-  - * App.tsx                   # Main app with routing and auth state
+ - App.css                   # Styles for the App component
+ - * App.tsx                   # Main app with routing and auth state
  - * firebaseConfig.ts         # Firebase SDK setup (update with your credentials)
  - * index.css                 # Global styles with dark/light theme
  - * main.tsx                  # Vite entry point with React Query and Redux
