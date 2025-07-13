@@ -45,20 +45,20 @@ Orders (/orders): View order history (via OrderHistory.tsx).
 File Structure
 React-E-Commerce-Firebase-App/
 -  src/
- -  components/
-  - ** AddProduct.tsx        # Form to add products with Pexels default image
-  - ** Home.tsx              # Welcome page with auth status
-  - ** Login.tsx             # Login and logout functionality
-  - ** Navbar.tsx            # Navigation bar with dynamic links
-  - ** OrderHistory.tsx      # Displays order history with details
-  - ** ProductList.tsx       # Product listing with CRUD and filtering
-  - ** Register.tsx          # User registration form
-  - ** ShoppingCart.tsx      # Cart management and checkout
-  - ** UserProfile.tsx       # User profile management
--  redux/
+ - ** components/
+  -  AddProduct.tsx        # Form to add products with Pexels default image
+  -  Home.tsx              # Welcome page with auth status
+  -  Login.tsx             # Login and logout functionality
+  -  Navbar.tsx            # Navigation bar with dynamic links
+  -  OrderHistory.tsx      # Displays order history with details
+  -  ProductList.tsx       # Product listing with CRUD and filtering
+  -  Register.tsx          # User registration form
+  -  ShoppingCart.tsx      # Cart management and checkout
+  -  UserProfile.tsx       # User profile management
+- ** redux/
    -  CartSlice.ts          # Manages cart state with add, remove, clear actions
    -  store.ts              # Configures Redux store
- - App.css                   # Styles for the App component
+ - * App.css                   # Styles for the App component
  - * App.tsx                   # Main app with routing and auth state
  - * firebaseConfig.ts         # Firebase SDK setup (update with your credentials)
  - * index.css                 # Global styles with dark/light theme
