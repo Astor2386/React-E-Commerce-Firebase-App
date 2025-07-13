@@ -44,8 +44,8 @@ Orders (/orders): View order history (via OrderHistory.tsx).
 
 File Structure
 React-E-Commerce-Firebase-App/
-── src/
- ─ components/
+- ** src/
+ - ** components/
   ─ AddProduct.tsx        # Form to add products with Pexels default image
   ─ Home.tsx              # Welcome page with auth status
   ─ Login.tsx             # Login and logout functionality
