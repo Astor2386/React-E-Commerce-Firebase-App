@@ -86,8 +86,8 @@ Dependencies:
 - (Check package.json for exact versions)
 
 Special notes:
--Utils.ts was created to fetch to the API for organization, and modularity per instructor Daniel Erazo of Coding Temple's instructions.
--Users login, and orders can be tracked via Firestore 
+- Utils.ts was created to fetch to the API for organization, and modularity per instructor Daniel Erazo of Coding Temple's instructions.
+- Users login, and orders can be tracked via Firestore 
 - firebaseConfig.ts has been modified to require users to input their own credentials, to protect the core files of the app / store.
 - Home and Navbar were added purely out of aesthetics and practical use
 - Pexels was used as image host, due to their browser friendly setup
