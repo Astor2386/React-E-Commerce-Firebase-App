@@ -33,14 +33,14 @@ npm run dev
 
 Open http://localhost:5173 in your browser.
 Explore the app:
-Home (/): Welcome page with auth status (via Home.tsx).
-Products (/products): View and manage products (via ProductList.tsx).
-Add Product (/add-product): Add new products (via AddProduct.tsx).
-Cart (/cart): Manage cart and checkout (via ShoppingCart.tsx).
-Register (/register): Create a new account (via Register.tsx).
-Login (/login): Log in or log out (via Login.tsx).
-Profile (/profile): Edit user details (via UserProfile.tsx).
-Orders (/orders): View order history (via OrderHistory.tsx).
+- Home (/): Welcome page with auth status (via Home.tsx).
+- Products (/products): View and manage products (via ProductList.tsx).
+- Add Product (/add-product): Add new products (via AddProduct.tsx).
+- Cart (/cart): Manage cart and checkout (via ShoppingCart.tsx).
+- Register (/register): Create a new account (via Register.tsx).
+- Login (/login): Log in or log out (via Login.tsx).
+- Profile (/profile): Edit user details (via UserProfile.tsx).
+- Orders (/orders): View order history (via OrderHistory.tsx).
 
 File Structure
 React-E-Commerce-Firebase-App/
