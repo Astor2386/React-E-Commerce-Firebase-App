@@ -14,14 +14,14 @@ It provides a full-featured online store with user authentication, product manag
 
 ## Installation
 1. Clone the repository:
-   -Command Prompt-
-   git clone https://github.com/Astor2386/React-E-Commerce-Firebase-App.git
-   cd React-E-Commerce-Firebase-App
+-  *Command Prompt*
+-  git clone https://github.com/Astor2386/React-E-Commerce-Firebase-App.git
+-  cd React-E-Commerce-Firebase-App
 Install dependencies:
--Command Prompt-
-npm install
+- *Command Prompt*
+-  npm install
 
-Setup
+Setup:
 -Firebase Configuration:Create a Firebase project in the Firebase Console.
 -Enable Firebase Authentication and Firestore.
 -Update src/firebaseConfig.ts with your Firebase credentials (replace mock values like YOUR_API_KEY).
