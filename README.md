@@ -47,25 +47,25 @@ React-E-Commerce-Firebase-App/
 -  src/
  - ** components/
   - * AddProduct.tsx        # Form to add products with Pexels default image
-  -  Home.tsx              # Welcome page with auth status
-  -  Login.tsx             # Login and logout functionality
-  -  Navbar.tsx            # Navigation bar with dynamic links
-  -  OrderHistory.tsx      # Displays order history with details
-  -  ProductList.tsx       # Product listing with CRUD and filtering
-  -  Register.tsx          # User registration form
-  -  ShoppingCart.tsx      # Cart management and checkout
-  -  UserProfile.tsx       # User profile management
+  - * Home.tsx              # Welcome page with auth status
+  - * Login.tsx             # Login and logout functionality
+  - * Navbar.tsx            # Navigation bar with dynamic links
+  - * OrderHistory.tsx      # Displays order history with details
+  - * ProductList.tsx       # Product listing with CRUD and filtering
+  - * Register.tsx          # User registration form
+  - * ShoppingCart.tsx      # Cart management and checkout
+  - * UserProfile.tsx       # User profile management
 - ** redux/
    -  CartSlice.ts          # Manages cart state with add, remove, clear actions
    -  store.ts              # Configures Redux store
- - * App.css                   # Styles for the App component
- - * App.tsx                   # Main app with routing and auth state
- - * firebaseConfig.ts         # Firebase SDK setup (update with your credentials)
- - * index.css                 # Global styles with dark/light theme
- - * main.tsx                  # Vite entry point with React Query and Redux
- - * types.ts                  # Type definitions for Product, CartItem, Order
-- * utils.ts                  # Firestore utility functions (CRUD operations)
-- * vite-env.d.ts             # Vite TypeScript environment types
+ - ** App.css                   # Styles for the App component
+ - ** App.tsx                   # Main app with routing and auth state
+ - ** firebaseConfig.ts         # Firebase SDK setup (update with your credentials)
+ - ** index.css                 # Global styles with dark/light theme
+ - ** main.tsx                  # Vite entry point with React Query and Redux
+ - ** types.ts                  # Type definitions for Product, CartItem, Order
+- ** utils.ts                  # Firestore utility functions (CRUD operations)
+- ** vite-env.d.ts             # Vite TypeScript environment types
 - public/
 - node_modules/                 # Dependencies
 - package.json                  # Project metadata
