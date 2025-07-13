@@ -21,18 +21,18 @@ Install dependencies:
 - *Command Prompt*
 -  npm install
 
-Setup:
--Firebase Configuration:Create a Firebase project in the Firebase Console.
--Enable Firebase Authentication and Firestore.
--Update src/firebaseConfig.ts with your Firebase credentials (replace mock values like YOUR_API_KEY).
+Setup-
+-  Firebase Configuration:Create a Firebase project in the Firebase Console.
+-  Enable Firebase Authentication and Firestore.
+-  Update src/firebaseConfig.ts with your Firebase credentials (replace mock values like YOUR_API_KEY).
 
-Usage
-Start the development server:
--Command Prompt-
-npm run dev
+Usage-
+- Start the development server:
+-  *Command Prompt*
+-  npm run dev
 
-Open http://localhost:5173 in your browser.
-Explore the app:
+-  *Open http://localhost:5173 in your browser.*
+- (Explore the app)
 - Home (/): Welcome page with auth status (via Home.tsx).
 - Products (/products): View and manage products (via ProductList.tsx).
 - Add Product (/add-product): Add new products (via AddProduct.tsx).
