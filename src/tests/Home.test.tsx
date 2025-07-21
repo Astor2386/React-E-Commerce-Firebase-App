@@ -1,4 +1,3 @@
-// src/tests/Home.test.tsx
 import { render, screen, waitFor } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Home from '../components/Home';
@@ -16,9 +15,9 @@ beforeEach(() => {
 });
 
 test('renders Home component for logged-out user', async () => {
-  // Mock onAuthStateChanged to simulate no user
+  // jest.Mock implementation for test files.
   (auth.onAuthStateChanged as jest.Mock).mockImplementation((callback) => {
-    setTimeout(() => callback(null), 0); // Simulate async behavior
+    setTimeout(() => callback(null), 0);
     return jest.fn(); // Return unsubscribe function
   });
 
@@ -33,7 +32,6 @@ test('renders Home component for logged-out user', async () => {
     expect(screen.getByText('Welcome to the E-Commerce App!')).toBeInTheDocument();
   });
 
-  // Target the <p> element with a precise matcher
   await waitFor(() => {
     const paragraph = screen.getByText((_, element) => {
       return (
@@ -54,7 +52,7 @@ test('renders Home component for logged-in user', async () => {
     email: 'test@example.com',
   };
   (auth.onAuthStateChanged as jest.Mock).mockImplementation((callback) => {
-    setTimeout(() => callback(mockUser), 0); // Simulate async behavior
+    setTimeout(() => callback(mockUser), 0);
     return jest.fn(); // Return unsubscribe function
   });
 
@@ -69,7 +67,6 @@ test('renders Home component for logged-in user', async () => {
     expect(screen.getByText('Welcome to the E-Commerce App!')).toBeInTheDocument();
   });
 
-  // Target the <p> element with a precise matcher
   await waitFor(() => {
     const paragraph = screen.getByText((_, element) => {
       return (

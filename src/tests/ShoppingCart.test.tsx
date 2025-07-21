@@ -56,7 +56,7 @@ test('updates cart when adding a product', async () => {
   expect(state.cart.totalPrice).toBe(10);
   expect(screen.getByText(/Test/i)).toBeInTheDocument(); // Check if product title appears
   expect(screen.getByText(/Price: \$10/i)).toBeInTheDocument(); // More specific query for item price
-  expect(screen.getByText(/Total:.*\$10\.00/i)).toBeInTheDocument(); // Match total with regex
+  expect(screen.getByText(/Total:.*\$10\.00/i)).toBeInTheDocument(); // toBeInTheDocument is by far the most useful tool during this testing
 
   // Add another item and verify
   await act(async () => {

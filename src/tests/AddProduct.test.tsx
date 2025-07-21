@@ -20,7 +20,7 @@ jest.mock('../firebaseConfig', () => ({
 
 // Mock react-router-dom with useNavigate
 jest.mock('react-router-dom', () => ({
-  ...jest.requireActual('react-router-dom'), // Preserve other exports
+  ...jest.requireActual('react-router-dom'),
   useNavigate: jest.fn(), // Mock useNavigate
 }));
 
@@ -35,7 +35,7 @@ beforeEach(() => {
       throw new Error('React error captured: ' + args.join(' '));
     }
   };
-  // Configure useNavigate mock in beforeEach
+  // Configure useNavigate mock in beforeEach dependency is already installed from my prior project
   (jest.requireMock('react-router-dom').useNavigate as jest.Mock).mockReturnValue(jest.fn());
 });
 
@@ -85,7 +85,7 @@ test('submits form successfully', async () => {
       </Provider>
     );
     container = renderResult.container;
-    console.log('Rendered DOM:', container.innerHTML); // Debug the rendered output
+    console.log('Rendered DOM:', container.innerHTML); 
   });
 
   await waitFor(() => {
@@ -124,7 +124,7 @@ test('handles form submission error', async () => {
       </Provider>
     );
     container = renderResult.container;
-    console.log('Rendered DOM:', container.innerHTML); // Debug the rendered output
+    console.log('Rendered DOM:', container.innerHTML);
   });
 
   await waitFor(() => {

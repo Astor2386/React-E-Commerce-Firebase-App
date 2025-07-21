@@ -28,7 +28,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <Router>
-        <Navbar user={user} /> {/* Prop now matches NavbarProps */}
+        <Navbar user={user} /> {/* Prop matches NavbarProps :) */}
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />

@@ -48,4 +48,3 @@ const cartSlice = createSlice({
 
 export const { addToCart, removeFromCart, clearCart } = cartSlice.actions;
 export default cartSlice.reducer;
-// Remove 'export { CartState };' since it's already exported via the interface

@@ -7,6 +7,6 @@ export default {
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
-  transformIgnorePatterns: ['/node_modules/'], // Default, no need to transform node-fetch@2
-  setupFiles: ['<rootDir>/jest.setup.js'], // Point to CommonJS file
+  transformIgnorePatterns: ['/node_modules/'],
+  setupFiles: ['<rootDir>/jest.setup.js'],
 };

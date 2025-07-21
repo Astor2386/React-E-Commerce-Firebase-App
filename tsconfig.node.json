@@ -7,8 +7,8 @@
     "composite": true,
     "outDir": "./dist/node",
     "rootDir": ".",
-    "noEmit": false, // Explicitly allow emit
-    "emitDeclarationOnly": true // Emit only .d.ts files
+    "noEmit": false, // Explicitly allow emit, otherwise many errors
+    "emitDeclarationOnly": true 
   },
   "include": ["vite.config.ts"]
 }
