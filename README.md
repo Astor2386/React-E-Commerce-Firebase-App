@@ -1,5 +1,5 @@
 # React E-Commerce Firebase Web App
-This is a TypeScript-based e-commerce web application built with React, Vite, Firebase, and Redux, Providing a full-featured online store with user authentication, product management, cart functionality, and order history.
+This is a TypeScript-based e-commerce web application built with React, Vite, Firebase, and Redux, Providing a full-featured online store with user authentication, product management, cart functionality, order history, product management, a shopping cart, and user registration. This project includes unit and integration tests, with automated deployment via GitHub Actions to Vercel.
 # Features
 - **User Authentication**: Register and login with email/password using Firebase Authentication, with logout functionality.
 - **User Management**: Create, read, update, and delete user profiles stored in Firestore.
