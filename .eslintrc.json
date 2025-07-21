@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "@typescript-eslint/no-require-imports": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.tsx"],
+      "rules": {
+        "@typescript-eslint/no-require-imports": "off"
+      }
+    }
+  ]
+}

@@ -1,8 +1,7 @@
-// src/redux/cartSlice.ts
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
 import type { CartItem, Product } from '../types';
 
-interface CartState {
+export interface CartState {
   items: CartItem[];
   totalItems: number;
   totalPrice: number;
@@ -49,3 +48,4 @@ const cartSlice = createSlice({
 
 export const { addToCart, removeFromCart, clearCart } = cartSlice.actions;
 export default cartSlice.reducer;
+// Remove 'export { CartState };' since it's already exported via the interface
