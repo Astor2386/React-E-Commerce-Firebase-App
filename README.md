@@ -73,7 +73,7 @@ Clone the repository:
 -React-E-Commerce-Firebase-App
 - *** .github/workflows
 - * main.yml
-  * 
+ 
 - *** public/            # Contains static assets like index.html and favicon.ico, standard for React apps.
 - * index.html
 - * favicon.ico
