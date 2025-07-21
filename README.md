@@ -24,11 +24,12 @@ Clone the repository:
 - *Command Prompt*
 - npm install
 
-- Setup-Firebase Configuration:
+## Setup-Firebase Configuration
 - Create a Firebase project in the Firebase Console.
 - Enable Firebase Authentication and Firestore.
 - Update src/firebaseConfig.ts with your Firebase credentials (replace mock values like YOUR_API_KEY).
 
+## Running Application
 - *Usage-Start the development server:
 - *Command Prompt*
 - npm run dev
@@ -71,14 +72,14 @@ Clone the repository:
 # File Structure
 -React-E-Commerce-Firebase-App/src/
 ** -components/AddProduct.tsx     # Form to add products with Pexels default image
-Home.tsx              # Welcome page with auth status
-Login.tsx             # Login and logout functionality
-Navbar.tsx            # Navigation bar with dynamic links
-OrderHistory.tsx      # Displays order history with details
-ProductList.tsx       # Product listing with CRUD and filtering
-Register.tsx          # User registration form
-ShoppingCart.tsx      # Cart management and checkout
-UserProfile.tsx       # User profile management
+** -Home.tsx              # Welcome page with auth status
+** -Login.tsx             # Login and logout functionality
+** -Navbar.tsx            # Navigation bar with dynamic links
+** -OrderHistory.tsx      # Displays order history with details
+** -ProductList.tsx       # Product listing with CRUD and filtering
+** -Register.tsx          # User registration form
+** -ShoppingCart.tsx      # Cart management and checkout
+** -UserProfile.tsx       # User profile management
 
 ** redux/CartSlice.ts          # Manages cart state with add, remove, clear actions
 store.ts              # Configures Redux store
