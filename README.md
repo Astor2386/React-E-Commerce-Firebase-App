@@ -69,31 +69,46 @@ Clone the repository:
 
 
 
-# File Structure
--React-E-Commerce-Firebase-App/src/
-- ** components/
+# Project Structure
+-React-E-Commerce-Firebase-App
+- *** .github/workflows
+- * main.yml
+  * 
+- *** public/            # Contains static assets like index.html and favicon.ico, standard for React apps.
+- * index.html
+- * favicon.ico
+- * manifest.json
+  * 
+- *** src/             # The main source directory, including:
+- ** components/       # Houses React components (AddProduct.tsx, ProductList.tsx, Home.tsx, ShoppingCart.tsx, Register.tsx)
 - * AddProduct.tsx     # Form to add products with Pexels default image
-- * Home.tsx              # Welcome page with auth status
-- * Login.tsx             # Login and logout functionality
-- * Navbar.tsx            # Navigation bar with dynamic links
-- * OrderHistory.tsx      # Displays order history with details
-- * ProductList.tsx       # Product listing with CRUD and filtering
-- * Register.tsx          # User registration form
-- * ShoppingCart.tsx      # Cart management and checkout
-- * UserProfile.tsx       # User profile management
+- * Home.tsx           # Welcome page with auth status
+- * Login.tsx          # Login and logout functionality
+- * Navbar.tsx         # Navigation bar with dynamic links
+- * OrderHistory.tsx   # Displays order history with details
+- * ProductList.tsx    # Product listing with CRUD and filtering
+- * Register.tsx       # User registration form
+- * ShoppingCart.tsx   # Cart management and checkout
+- * UserProfile.tsx    # User profile management
 
-- ** redux/
+- ** tests/: Directory for test files, aligning with your Jest setup.
+- * Home.test.tsx             # 100% Pass for testing
+- * ProductList.test.tsx      #  100% Pass for testing
+- * AddProduct.test.tsx       # 100% Pass for testing
+- * ShoppingCart.test.tsx     # 100% Pass for testing
+
+- ** redux/               # Contains Redux setup files (store.ts, cartSlice.ts) for state management.
 - * cartSlice.ts          # Manages cart state with add, remove, clear actions
 - * store.ts              # Configures Redux store
 
-- * App.css                     # Styles for the App component
-- * App.tsx                     # Main app with routing and auth state
-- * firebaseConfig.ts           # Firebase SDK setup (update with your credentials)
-- * index.css                   # Global styles with dark/light theme
-- * main.tsx                  # Vite entry point with React Query and Redux
-- * types.ts                  # Type definitions for Product, CartItem, Order
-- * utils.ts                  # Firestore utility functions (CRUD operations)
-- * vite-env.d.ts             # Vite TypeScript environment types
+- ** App.css                     # Styles for the App component
+- ** App.tsx                     # Main app with routing and auth state
+- ** firebaseConfig.ts           # Firebase SDK setup (update with your credentials)
+- ** index.css                   # Global styles with dark/light theme
+- ** main.tsx                  # Vite entry point with React Query and Redux
+- ** types.ts                  # Defines TypeScript interfaces for the project.
+- ** utils.ts                  # Firestore utility functions (CRUD operations)
+- ** vite-env.d.ts             # Vite TypeScript environment types
     
 - ** public/
 - ** node_modules/                 # Dependencies
@@ -116,6 +131,7 @@ Clone the repository:
 
 ## Additional notes:
 - Utils.ts was created to fetch to the API for organization, and modularity per instructor Daniel Erazo of Coding Temple's instructions.
+- An Additional file beyond the scope of just two were created and cleared with 100% Pass
 - Users login, and orders can be tracked via Firestore 
 - firebaseConfig.ts has been modified to require users to input their own credentials, to protect the core files of the app / store.
 - Home and Navbar were added purely out of aesthetics and practical use
