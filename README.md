@@ -72,8 +72,8 @@ Clone the repository:
 # File Structure
 -React-E-Commerce-Firebase-App/src/
 - ** components/AddProduct.tsx     # Form to add products with Pexels default image
-- ** Home.tsx              # Welcome page with auth status
-- ** Login.tsx             # Login and logout functionality
+- * Home.tsx              # Welcome page with auth status
+- * Login.tsx             # Login and logout functionality
 - ** Navbar.tsx            # Navigation bar with dynamic links
 - ** OrderHistory.tsx      # Displays order history with details
 - ** ProductList.tsx       # Product listing with CRUD and filtering
