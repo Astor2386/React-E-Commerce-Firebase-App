@@ -78,7 +78,7 @@ Clone the repository:
 - * index.html
 - * favicon.ico
 - * manifest.json
-  * 
+ 
 - *** src/             # The main source directory, including:
 - ** components/       # Houses React components (AddProduct.tsx, ProductList.tsx, Home.tsx, ShoppingCart.tsx, Register.tsx)
 - * AddProduct.tsx     # Form to add products with Pexels default image
