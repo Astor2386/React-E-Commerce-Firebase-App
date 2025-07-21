@@ -1,12 +1,11 @@
-// src/components/AddProduct.tsx
+// Add Products file, specific use of Pexels.com for images and most browser friendly link system
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { createProduct } from '../utils';
 import type { Product } from '../types';
 import { useNavigate } from 'react-router-dom';
-
-// Example Pexels image (replace with one from your pre-loaded set if known)
-const DEFAULT_IMAGE = 'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg'; // Placeholder Pexels image
+// Pexels.com is truly the easiest link to images to use
+const DEFAULT_IMAGE = 'https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg'; 
 
 const AddProduct = () => {
   const [product, setProduct] = useState<Omit<Product, 'id'>>({
@@ -50,7 +49,7 @@ const AddProduct = () => {
         title: '',
         description: '',
         price: 0,
-        image: DEFAULT_IMAGE, // Reset to Pexels default
+        image: DEFAULT_IMAGE,
       });
       navigate('/products');
     } catch (err: unknown) {

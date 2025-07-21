@@ -1,4 +1,3 @@
-// src/components/Register.tsx
 import { useState } from 'react';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth, db } from '../firebaseConfig';

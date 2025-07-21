@@ -1,10 +1,10 @@
-// src/components/OrderHistory.tsx
 import { useState, useEffect } from 'react';
 import { auth, db } from '../firebaseConfig';
 import { collection, query, where, getDocs, doc, getDoc } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
 import type { Order } from '../types';
 
+// Creating Order History to trace users orders
 const OrderHistory = () => {
   const [orders, setOrders] = useState<Order[]>([]);
   const [selectedOrder, setSelectedOrder] = useState<Order | null>(null);

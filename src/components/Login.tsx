@@ -1,10 +1,10 @@
-// src/components/Login.tsx
 import { useState } from 'react';
-import type { FormEvent } from 'react'; // Use type import
+import type { FormEvent } from 'react';
 import { signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from '../firebaseConfig';
 import { useNavigate } from 'react-router-dom';
 
+// Setup Login for users
 const Login = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
@@ -17,7 +17,7 @@ const Login = () => {
       await signInWithEmailAndPassword(auth, email, password);
       alert('Login successful!');
       navigate('/');
-    } catch (err: unknown) { // Replace any with unknown
+    } catch (err: unknown) {
       const error = err as { message: string };
       setError(error.message);
     }

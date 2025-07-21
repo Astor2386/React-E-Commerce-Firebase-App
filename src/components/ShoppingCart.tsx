@@ -1,4 +1,3 @@
-// src/components/ShoppingCart.tsx
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { collection, addDoc, doc, getDoc } from 'firebase/firestore';
@@ -8,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import type { RootState } from '../redux/store';
 import { removeFromCart, clearCart } from '../redux/cartSlice';
 
+// Shopping Cart for products, login verification implemented
 const ShoppingCart = () => {
   const dispatch = useDispatch();
   const cart = useSelector((state: RootState) => state.cart);

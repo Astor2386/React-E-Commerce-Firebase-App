@@ -1,4 +1,4 @@
-// src/types.ts
+// types.ts to create the details of the products
 export interface Product {
   id?: string;
   category: string;
@@ -13,7 +13,7 @@ export interface CartItem extends Product {
 }
 
 export interface Order {
-  id: string; // Changed from id?: string to id: string
+  id: string;
   userId: string;
   products: { productId: string; quantity: number; price: number }[];
   totalPrice: number;

@@ -1,4 +1,3 @@
-// src/components/ProductList.tsx
 import { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchProducts, updateProduct, deleteProduct } from '../utils';
@@ -6,6 +5,7 @@ import type { Product } from '../types';
 import { Link } from 'react-router-dom';
 import { addToCart } from '../redux/cartSlice';
 
+// Creation of Product list
 const ProductList = () => {
   const dispatch = useDispatch();
   const [products, setProducts] = useState<Product[]>([]);
@@ -100,7 +100,7 @@ const ProductList = () => {
   const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedCategory(e.target.value);
   };
-
+// 5 product categories made in a drop down style for store
   return (
     <div>
       <h2>Products</h2>

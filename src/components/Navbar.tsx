@@ -1,11 +1,11 @@
-// src/components/Navbar.tsx
+// Creating a Navbar just for aesthetics and practical use
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { auth } from '../firebaseConfig';
 import type { User } from 'firebase/auth';
 
 interface NavbarProps {
-  user?: User | null; // Optional user prop
+  user?: User | null;
 }
 
 const Navbar = ({ user }: NavbarProps) => {

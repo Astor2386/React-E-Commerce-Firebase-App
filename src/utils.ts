@@ -1,4 +1,4 @@
-// src/utils.ts
+// utils.ts functions to fetch to the API for organization and Modularity
 import { collection, getDocs, query, where, addDoc, doc, updateDoc, deleteDoc } from 'firebase/firestore';
 import { db } from './firebaseConfig';
 import type { Product, CartItem, Order } from './types';

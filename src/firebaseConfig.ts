@@ -1,4 +1,4 @@
-// src/firebaseConfig.ts
+// Auth page, mock setup to protect core Firebase / Firestore data
 import { initializeApp } from 'firebase/app';
 import type { Auth } from 'firebase/auth';
 import { getAuth } from 'firebase/auth';

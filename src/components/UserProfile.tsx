@@ -1,4 +1,4 @@
-// src/components/UserProfile.tsx
+// User profiles and handle of update, delete , etc
 import { useState, useEffect } from 'react';
 import { auth, db } from '../firebaseConfig';
 import { collection, getDocs, query, where, doc, updateDoc, deleteDoc } from 'firebase/firestore'; // Added deleteDoc

@@ -1,4 +1,4 @@
-// src/components/Home.tsx
+// // Creating a Home Page just for aesthetics and practical use
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { auth } from '../firebaseConfig';
